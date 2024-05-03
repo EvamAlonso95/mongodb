@@ -1,0 +1,4 @@
+db.clientes.updateOne(
+{nombre:'Eva'},
+{$set:{email:"info@eva.com"}}
+)

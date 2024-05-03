@@ -1,0 +1,9 @@
+db.productos.aggregate(
+    [
+        {$group:{
+            _id:"$precio"
+            }
+        }
+    ]
+)
+// Nos da únicamente el precio de los productos

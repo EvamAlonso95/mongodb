@@ -1,0 +1,3 @@
+//Filtrar campos que queremos
+
+db.productos.aggregate([{$project:{"nombre":1}}])

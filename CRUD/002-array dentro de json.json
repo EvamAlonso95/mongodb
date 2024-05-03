@@ -1,0 +1,10 @@
+db.clientes.insertOne({
+    nombre: "Axel",
+    apellidos: "Loupias",
+    telefono: "+34 987456213",
+    email: "axel@gmail.es",
+    direcciones:[
+        "direcion 1",
+        "direcion2"
+    ]
+})

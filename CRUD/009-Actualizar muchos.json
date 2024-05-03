@@ -1,0 +1,4 @@
+db.clientes.updateMany(
+{email:'info@eva.com'},
+{$set:{telefono:"11111111111"}}
+)

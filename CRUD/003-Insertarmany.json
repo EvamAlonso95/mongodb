@@ -1,0 +1,22 @@
+db.clientes.insertMany(
+[
+    {
+    nombre: "Jorge",
+    apellidos: "Garcia",
+    telefono: "+34 456465465",
+    email: "jorge@gmail.es"
+    },
+    {
+    nombre: "Julia",
+    apellidos: "Lopez",
+    telefono: "+34 12379874",
+    email: "julia@gmail.es"
+    },
+    {
+    nombre: "Juan",
+    apellidos: "Perez",
+    telefono: "+34 6731594224",
+    email: "juan@gmail.es"
+    }
+]
+)

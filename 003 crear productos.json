@@ -1,0 +1,29 @@
+db.productos.insertMany(
+[
+    {
+    nombre: "producto 1",
+    precio: 15,
+   descripción: "Esta es la descripción del producto 1"
+    },
+    {
+    nombre: "producto 2",
+    precio: 35,
+    descripción: "Esta es la descripción del producto 2"
+    },
+    {
+    nombre: "producto 3",
+    precio: 25,
+    descripción: "Esta es la descripción del producto 3"
+    },
+    {
+    nombre: "producto 4",
+    precio: 55,
+    descripción: "Esta es la descripción del producto 4"
+    },
+    {
+    nombre: "producto 5",
+    precio: 65,
+    descripción: "Esta es la descripción del producto 5"
+    }
+]
+)

@@ -1,0 +1,2 @@
+db.clientes.find({email:'eva@gmail.es'})
+// Devuelve todos los que tengan ese campo

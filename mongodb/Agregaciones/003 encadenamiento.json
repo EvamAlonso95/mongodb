@@ -1,0 +1,13 @@
+db.productos.aggregate(
+    [
+        //Fase 1 de la agreación y sobre esta
+        {$group:{
+            _id:"$precio"
+            }
+        },
+        //Fase 2 de ala agregación sobre la agregación anterior
+        {
+            $limit:1
+        }
+    ]
+)

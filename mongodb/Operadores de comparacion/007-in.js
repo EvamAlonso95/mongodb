@@ -1,0 +1,1 @@
+db.productos.find({ precio: { $in: [50, 55, 60] } });

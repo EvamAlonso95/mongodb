@@ -1,0 +1,3 @@
+db.productos.aggregate([{$limit:1}])
+
+// Nos mmuestra un solo elemento

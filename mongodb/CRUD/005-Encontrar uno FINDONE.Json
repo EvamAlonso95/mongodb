@@ -1,0 +1,2 @@
+db.clientes.findOne()
+// Sin parametros me deveulve el primero

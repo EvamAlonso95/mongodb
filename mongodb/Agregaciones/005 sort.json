@@ -1,0 +1,6 @@
+// Ordenación de menor a mayor
+db.productos.aggregate([{$sort:{"precio":1}}])
+
+// Ordenación de mayor a menor
+
+db.productos.aggregate([{$sort:{"precio":-1}}])

@@ -1,0 +1,13 @@
+// Busca con las condiciones que les pases
+db.productos.aggregate(
+    [
+        {
+            $match:{
+                nombre:"producto 1"
+            }
+        },
+        {
+            $count:"nombre"
+        }
+    ]
+)

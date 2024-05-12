@@ -1,0 +1,2 @@
+// Cuenta
+db.productos.aggregate([{$count:"nombre"}])
